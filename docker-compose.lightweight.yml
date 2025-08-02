@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  nexus-form-automation:
+    build:
+      context: .
+      dockerfile: Dockerfile.lightweight
+    container_name: nexus-form-automation
+    restart: unless-stopped
+    
+    environment:
+      # Execution configuration
+      - EXECUTION_MODE=daily  # Options: once, daily, cron
+      - TZ=Asia/Singapore
+      
+      # Form data configuration
+      - VISITOR_NAME=Rizwan Ahamed
+      - ACCESS_LEVEL=5
+      - PURPOSE=Meeting
+      - COMPANY=Cognizant
+      - MOBILE=87686853
+      - ADDITIONAL_INFO=Cognizant
+      
+      # Form URL (optional override)
+      - FORM_URL=https://forms.office.com/Pages/ResponsePage.aspx?id=WGeXB8aT70uz3FOGA9yRbsbr_tTOC29AvupnhyEvx8FUNlFMQlVGMFNQUjJNUFZOTUJTMlk0SElTWSQlQCN0PWcu&origin=QRCode
+    
+    volumes:
+      # Mount logs directory to host for persistence
+      - ./automation_logs:/app/logs
+      # Optional: Mount custom configuration
+      # - ./config:/app/config:ro
+    
+    # Resource limits for lightweight operation
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+        reservations:
+          memory: 256M
+          cpus: '0.25'
+    
+    # Logging configuration
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    
+    # Health check
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import selenium; print('OK')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    # Security options
+    security_opt:
+      - no-new-privileges:true
+    
+    # Network mode (optional: use host network if needed)
+    # network_mode: host
+
+# Optional: Create named volume for logs
+volumes:
+  automation_logs:
+    driver: local

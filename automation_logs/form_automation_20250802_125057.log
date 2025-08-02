@@ -1,0 +1,38 @@
+2025-08-02 12:50:57,926 - INFO - ====== WebDriver manager ======
+2025-08-02 12:50:59,368 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-02 12:50:59,510 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-02 12:50:59,645 - INFO - Driver [C:\Users\2393481\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-02 12:51:01,100 - INFO - ✅ Browser initialized successfully
+2025-08-02 12:51:01,100 - INFO - 🚀 Starting form automation
+2025-08-02 12:51:01,100 - INFO - 📋 Target URL: https://forms.office.com/Pages/ResponsePage.aspx?id=WGeXB8aT70uz3FOGA9yRbsbr_tTOC29AvupnhyEvx8FUNlFMQlVGMFNQUjJNUFZOTUJTMlk0SElTWSQlQCN0PWcu&origin=QRCode
+2025-08-02 12:51:03,535 - INFO - 📸 Screenshot saved: debug_screenshots/step_01_page_loaded_20250802_125057.png
+2025-08-02 12:51:05,552 - INFO - ✅ Page loaded successfully
+2025-08-02 12:51:06,082 - INFO - 📸 Screenshot saved: debug_screenshots/step_02_form_loaded_20250802_125057.png
+2025-08-02 12:51:06,083 - INFO - 📝 Filling Visitor Name: John Doe
+2025-08-02 12:51:07,302 - INFO - ✅ Successfully filled Visitor Name
+2025-08-02 12:51:07,701 - INFO - 📸 Screenshot saved: debug_screenshots/step_03_name_filled_20250802_125057.png
+2025-08-02 12:51:07,702 - INFO - 🔽 Handling dropdown Access Level: 3
+2025-08-02 12:51:08,850 - INFO - 🔽 Clicked dropdown Access Level
+2025-08-02 12:51:11,329 - INFO - 📸 Screenshot saved: debug_screenshots/step_04_dropdown_Access_Level_opened_20250802_125057.png
+2025-08-02 12:51:11,732 - INFO - ✅ Selected option: 3
+2025-08-02 12:51:13,137 - INFO - 📸 Screenshot saved: debug_screenshots/step_05_access_level_selected_20250802_125057.png
+2025-08-02 12:51:13,138 - INFO - 🔽 Handling dropdown Purpose: Meeting
+2025-08-02 12:51:14,277 - INFO - 🔽 Clicked dropdown Purpose
+2025-08-02 12:51:16,650 - INFO - 📸 Screenshot saved: debug_screenshots/step_06_dropdown_Purpose_opened_20250802_125057.png
+2025-08-02 12:51:16,780 - INFO - ✅ Selected option: Meeting
+2025-08-02 12:51:18,169 - INFO - 📸 Screenshot saved: debug_screenshots/step_07_purpose_selected_20250802_125057.png
+2025-08-02 12:51:18,170 - INFO - 📝 Filling Additional Information: Visiting for project discussion meeting with the development team.
+2025-08-02 12:51:19,740 - INFO - ✅ Successfully filled Additional Information
+2025-08-02 12:51:20,181 - INFO - 📸 Screenshot saved: debug_screenshots/step_08_additional_info_filled_20250802_125057.png
+2025-08-02 12:51:20,575 - INFO - 📸 Screenshot saved: debug_screenshots/step_09_page_1_completed_20250802_125057.png
+2025-08-02 12:51:20,576 - INFO - ➡️ Clicking Next button
+2025-08-02 12:51:21,765 - INFO - ✅ Next button clicked successfully
+2025-08-02 12:51:25,162 - INFO - 📸 Screenshot saved: debug_screenshots/step_10_next_page_loaded_20250802_125057.png
+2025-08-02 12:51:30,163 - INFO - 📄 Checking for additional form pages
+2025-08-02 12:51:32,358 - INFO - ✅ Filled additional_field_1: TechCorp
+2025-08-02 12:51:32,827 - INFO - 📸 Screenshot saved: debug_screenshots/step_11_additional_field_1_filled_20250802_125057.png
+2025-08-02 12:51:32,932 - INFO - ➡️ Proceeded to next page
+2025-08-02 12:51:38,350 - INFO - 📸 Screenshot saved: debug_screenshots/step_12_final_page_20250802_125057.png
+2025-08-02 12:51:38,352 - INFO - ✅ Form automation completed successfully!
+2025-08-02 12:51:38,353 - INFO - ⏳ Keeping browser open for 10 seconds for review...
+2025-08-02 12:51:50,832 - INFO - 🔒 Browser closed

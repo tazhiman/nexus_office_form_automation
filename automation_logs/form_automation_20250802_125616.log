@@ -1,0 +1,51 @@
+2025-08-02 12:56:16,335 - INFO - ====== WebDriver manager ======
+2025-08-02 12:56:17,821 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-02 12:56:17,957 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-02 12:56:18,098 - INFO - Driver [C:\Users\2393481\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-02 12:56:19,238 - INFO - ✅ Browser initialized successfully
+2025-08-02 12:56:19,238 - INFO - 🚀 Starting form automation
+2025-08-02 12:56:19,238 - INFO - 📋 Target URL: https://forms.office.com/Pages/ResponsePage.aspx?id=WGeXB8aT70uz3FOGA9yRbsbr_tTOC29AvupnhyEvx8FUNlFMQlVGMFNQUjJNUFZOTUJTMlk0SElTWSQlQCN0PWcu&origin=QRCode
+2025-08-02 12:56:20,884 - INFO - 📸 Screenshot saved: debug_screenshots/step_01_page_loaded_20250802_125616.png
+2025-08-02 12:56:22,917 - INFO - ✅ Page loaded successfully
+2025-08-02 12:56:23,352 - INFO - 📸 Screenshot saved: debug_screenshots/step_02_form_loaded_20250802_125616.png
+2025-08-02 12:56:23,353 - INFO - 📝 Filling Visitor Name: Rizwan Ahamed
+2025-08-02 12:56:24,530 - INFO - ✅ Successfully filled Visitor Name
+2025-08-02 12:56:25,034 - INFO - 📸 Screenshot saved: debug_screenshots/step_03_name_filled_20250802_125616.png
+2025-08-02 12:56:25,034 - INFO - 🔽 Handling dropdown Access Level: 5
+2025-08-02 12:56:26,139 - INFO - 🔽 Clicked dropdown Access Level
+2025-08-02 12:56:28,551 - INFO - 📸 Screenshot saved: debug_screenshots/step_04_dropdown_Access_Level_opened_20250802_125616.png
+2025-08-02 12:56:28,635 - INFO - ✅ Selected option: 5
+2025-08-02 12:56:30,197 - INFO - 📸 Screenshot saved: debug_screenshots/step_05_access_level_selected_20250802_125616.png
+2025-08-02 12:56:30,201 - INFO - 🔽 Handling dropdown Purpose: Meeting
+2025-08-02 12:56:31,440 - INFO - 🔽 Clicked dropdown Purpose
+2025-08-02 12:56:33,833 - INFO - 📸 Screenshot saved: debug_screenshots/step_06_dropdown_Purpose_opened_20250802_125616.png
+2025-08-02 12:56:33,931 - INFO - ✅ Selected option: Meeting
+2025-08-02 12:56:35,312 - INFO - 📸 Screenshot saved: debug_screenshots/step_07_purpose_selected_20250802_125616.png
+2025-08-02 12:56:35,312 - INFO - 📝 Filling Additional Information: Visiting for project discussion meeting with the development team.
+2025-08-02 12:56:36,711 - INFO - ✅ Successfully filled Additional Information
+2025-08-02 12:56:37,176 - INFO - 📸 Screenshot saved: debug_screenshots/step_08_additional_info_filled_20250802_125616.png
+2025-08-02 12:56:37,556 - INFO - 📸 Screenshot saved: debug_screenshots/step_09_page_1_completed_20250802_125616.png
+2025-08-02 12:56:37,556 - INFO - ➡️ Clicking Next button
+2025-08-02 12:56:38,627 - INFO - ✅ Next button clicked successfully
+2025-08-02 12:56:41,964 - INFO - 📸 Screenshot saved: debug_screenshots/step_10_next_page_loaded_20250802_125616.png
+2025-08-02 12:56:46,965 - INFO - 📄 Checking for additional form pages
+2025-08-02 12:56:48,979 - INFO - 🔘 Found radio buttons, handling locally registered number question
+2025-08-02 12:56:48,979 - INFO - 🔘 Selecting radio button Locally Registered Number: Yes
+2025-08-02 12:56:49,086 - WARNING - ⚠️ Could not find radio button for: Yes
+2025-08-02 12:56:49,087 - INFO - 🔘 Selecting radio button Locally Registered Number (Chinese): 是
+2025-08-02 12:56:50,239 - INFO - ✅ Selected radio button via label: 是
+2025-08-02 12:56:51,649 - INFO - 📸 Screenshot saved: debug_screenshots/step_11_radio_button_selected_20250802_125616.png
+2025-08-02 12:56:51,649 - INFO - ➡️ Clicking Next button
+2025-08-02 12:56:52,714 - INFO - ✅ Next button clicked successfully
+2025-08-02 12:56:56,098 - INFO - 📸 Screenshot saved: debug_screenshots/step_12_mobile_number_page_loaded_20250802_125616.png
+2025-08-02 12:56:59,099 - INFO - 📱 Handling mobile number page
+2025-08-02 12:56:59,185 - WARNING - ⚠️ Could not find mobile number field
+2025-08-02 12:57:01,186 - INFO - 📤 Looking for Submit button
+2025-08-02 12:57:02,258 - INFO - ✅ Submit button clicked successfully
+2025-08-02 12:57:07,609 - INFO - 📸 Screenshot saved: debug_screenshots/step_13_form_submitted_20250802_125616.png
+2025-08-02 12:57:07,609 - INFO - ✅ Form submitted successfully!
+2025-08-02 12:57:07,672 - INFO - ✅ Filled additional_field_1: Cognizant
+2025-08-02 12:57:08,169 - INFO - 📸 Screenshot saved: debug_screenshots/step_14_additional_field_1_filled_20250802_125616.png
+2025-08-02 12:57:08,169 - INFO - ✅ Form automation completed successfully!
+2025-08-02 12:57:08,169 - INFO - ⏳ Keeping browser open for 10 seconds for review...
+2025-08-02 12:57:21,325 - INFO - 🔒 Browser closed

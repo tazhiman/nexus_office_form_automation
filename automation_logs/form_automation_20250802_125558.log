@@ -1,0 +1,13 @@
+2025-08-02 12:55:58,410 - INFO - ====== WebDriver manager ======
+2025-08-02 12:55:59,658 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-02 12:55:59,837 - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-02 12:55:59,979 - INFO - Driver [C:\Users\2393481\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-02 12:56:01,463 - INFO - ✅ Browser initialized successfully
+2025-08-02 12:56:01,464 - INFO - 🚀 Starting form automation
+2025-08-02 12:56:01,464 - INFO - 📋 Target URL: https://forms.office.com/Pages/ResponsePage.aspx?id=WGeXB8aT70uz3FOGA9yRbsbr_tTOC29AvupnhyEvx8FUNlFMQlVGMFNQUjJNUFZOTUJTMlk0SElTWSQlQCN0PWcu&origin=QRCode
+2025-08-02 12:56:02,242 - INFO - 📸 Screenshot saved: debug_screenshots/step_01_page_loaded_20250802_125558.png
+2025-08-02 12:56:05,386 - INFO - ✅ Page loaded successfully
+2025-08-02 12:56:05,904 - INFO - 📸 Screenshot saved: debug_screenshots/step_02_form_loaded_20250802_125558.png
+2025-08-02 12:56:05,905 - INFO - 📝 Filling Visitor Name: Rizwan Ahamed
+2025-08-02 12:56:06,310 - INFO - ⏳ Keeping browser open for 10 seconds for review...
+2025-08-02 12:56:20,388 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017CC4007620>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f65b01be884d51359ae0ab7b685fe61d
