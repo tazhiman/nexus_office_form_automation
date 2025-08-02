@@ -1,4 +1,0 @@
-2025-08-02 12:55:47,804 - INFO - ====== WebDriver manager ======
-2025-08-02 12:55:49,300 - INFO - Get LATEST chromedriver version for google-chrome
-2025-08-02 12:55:49,466 - INFO - Get LATEST chromedriver version for google-chrome
-2025-08-02 12:55:49,600 - INFO - Driver [C:\Users\2393481\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
